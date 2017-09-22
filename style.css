@@ -1,0 +1,22 @@
+	body {
+
+		font-size: 2em;
+		font-family: 'Anton', sans-serif;
+	}
+	body{
+		background-color: green;
+
+	
+		font-size: 2em;
+		font-family: 'Inconsolata', monospace;
+
+
+	}
+	.rubrik {
+		color: orange;
+	}
+		#content {
+		margin: auto 0;
+		width: 100%;
+		background-color: rgba(255, 100, 150, 0.7);
+	}
