@@ -6,7 +6,8 @@ nav ul li {
 
 }
 body{
-	background-color: #6E6E6E;
+	/* background-color: #6E6E6E; */
+	background-image: url(desert.jpg);
 	font-size: 2em;
 	font-family: 'Inconsolata', monospace;
 	margin: 20px;
@@ -17,8 +18,14 @@ img{
 	border: 3px solid black;
 
 }
+.menu {
+	float: left;
+
+}
 .topimg{
 	float: right;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	margin-top: 28px;
 
 }
 .sidebar {
@@ -26,26 +33,30 @@ img{
 	font-size: 1.7em;
 	float: right;
 	text-align: right;
-	margin: 5px;
+	margin: 1%;
+	width: 15%;
 
 }
 .sidebar li {
-	margin-top: 10px;
+	margin-top: 10%;
 	list-style: none;
+
 }
 
 .column {
     float: left;
-    width: 26%;
-    padding: 10px;
+    width: 25%;
+    padding: 0.5%;
     background-color: #BDBDBD;
     border: 3px solid black;
-    margin: 7px;
+    margin: 0.5%;
     height: 70vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 
 }
 .columnbild {
 	margin: 10px;
+	float: center;
 
 }
 .row:after {
@@ -59,6 +70,10 @@ img{
         width: 100%;
     }
 }
+h1 {
+	text-align: center;
+
+}
 p {
 	margin: 10px;
 	float: left;
@@ -70,6 +85,7 @@ a {
 	border: 3px dotted black;
 	color: #D8D8D8;
 	background-color: #2E2E2E;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 
 }
 a:hover {
